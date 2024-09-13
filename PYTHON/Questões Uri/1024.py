@@ -1,7 +1,7 @@
 def criptografar(texto):
     firstString = ''
     for char in texto:
-        if char.isalpha():  # Verifica se o caractere é uma letra
+        if char.isalpha():
             firstString += chr(ord(char) + 3)
         else:
             firstString += char
